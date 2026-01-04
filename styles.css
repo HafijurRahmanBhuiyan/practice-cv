@@ -23,7 +23,8 @@ body{
 }
 .hr-blue{
     width: 190px;
-    margin-right: 37px;
+    margin-right: 40px;
+    margin-top: -10px;
 }
 .con-edu-skil-lan{
     /* margin-left: 20px; */
@@ -57,7 +58,34 @@ body{
 .hr-right{
     width: 460px;
     margin-right: 20px;
+    margin-top: -10px;
+
 }
 .work{
     margin-top: 30px;
+    /* border: 1px solid ; */
+}
+.work-info-container{
+    margin-top:-3px;
+    /* border: 1px solid ; */
+    width: 450px;
+    display: flex;
+}
+.left-work{
+    flex:0 0 80%;
+    border: 2px solid ;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    padding-left: 10px;
+    
+}
+.right-work{
+    flex: 0 0 20%;
+    /* border: 1px solid ; */
+
+}
+.left-list{
+    line-height: 1.5;
+    margin-left: 25px;
 }
